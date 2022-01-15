@@ -10,7 +10,7 @@ Welcome to {}
 
 You can use me to rename documents and files with certain other features. Use `/help` to learn how !
 
-By @StarkBots
+By @Blindtechagent
     """
 
     # Home Button
@@ -20,12 +20,12 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/Blindtechagent")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/Blindtechagent")],
         [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
     ]
 
@@ -49,7 +49,7 @@ Just send a document / video to start renaming. Then when asked, give the new na
     ABOUT = """
 **About This Bot** 
 
-A telegram rename bot by @StarkBots
+A telegram rename bot
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/RenameTelegramBot)
 
